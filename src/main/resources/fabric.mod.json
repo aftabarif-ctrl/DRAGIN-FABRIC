@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "dragonlords",
+  "version": "${version}",
+  "name": "Dragon Lords",
+  "description": "Five rideable, tameable, biome-bound dragons with elemental breath and terrain-shattering charges.",
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.dragonlords.DragonLords"],
+    "client": ["com.dragonlords.client.DragonLordsClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
